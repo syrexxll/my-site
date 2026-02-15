@@ -1,0 +1,77 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #111;
+    color: white;
+    text-align: center;
+}
+
+header {
+    padding: 50px 20px;
+    background: linear-gradient(45deg, #1e90ff, #00c3ff);
+}
+
+h1 {
+    margin: 0;
+    font-size: 40px;
+}
+
+section {
+    padding: 40px 20px;
+}
+
+.about {
+    background-color: #1c1c1c;
+}
+
+.projects ul {
+    list-style: none;
+    padding: 0;
+}
+
+.projects li {
+    padding: 10px;
+    margin: 10px auto;
+    background-color: #333;
+    width: 200px;
+    border-radius: 8px;
+}
+
+footer {
+    padding: 20px;
+    background-color: black;
+    font-size: 14px;
+}
+
+.btn {
+    padding: 15px 30px;
+    background-color: #1e90ff;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background-color: #00c3ff;
+    transform: scale(1.05);
+}
+
+.tg-btn {
+    margin-top: 20px;
+    padding: 15px 30px;
+    background-color: #ff69b4; /* ярко-розовая */
+    border: none;
+    border-radius: 8px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.tg-btn:hover {
+    background-color: #ff85c1; /* чуть светлее при наведении */
+    transform: scale(1.05);
+}
